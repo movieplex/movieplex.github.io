@@ -68,8 +68,8 @@ const routes = [
     { path: "multiplex", component: _components_management_multiplex_multiplex_component__WEBPACK_IMPORTED_MODULE_6__["MultiplexComponent"] },
     { path: "movie", component: _components_management_movie_movie_component__WEBPACK_IMPORTED_MODULE_7__["MovieComponent"] },
     { path: "profile", component: _components_profile_profile_component__WEBPACK_IMPORTED_MODULE_8__["ProfileComponent"] },
-    { path: '', redirectTo: '/home', pathMatch: "full" },
-    { path: "**", component: _components_error_page_error_error_component__WEBPACK_IMPORTED_MODULE_9__["ErrorComponent"] }
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: "**", component: _components_error_page_error_error_component__WEBPACK_IMPORTED_MODULE_9__["ErrorComponent"] },
 ];
 class AppRoutingModule {
 }
